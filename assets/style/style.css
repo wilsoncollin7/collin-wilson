@@ -1,0 +1,101 @@
+/* -----HEADER CONTAINER----- */
+
+#headerContainer {
+    height: 100vh;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 35vh;
+}
+#mainHeader {
+    font-size: 100px;
+}
+#mainBottom {
+    position: absolute;
+    bottom: 0;
+    right: 48%;
+}
+
+/* -----SECTION GROUP STYLING----- */
+
+#mainSection1, #mainSection3 {
+    background-color: chocolate;
+}
+#mainSection2, #mainSection4 {
+    background-color: teal;
+}
+
+/* -----SECTION ONE----- */
+
+#mainSection1 {
+    height: 100%;
+    padding-bottom: 200px;
+    text-align: center;
+}
+#aboutPic {
+width: 100%;
+}
+#aboutHeader {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.accordion {
+    width: 50%;
+    margin: auto;
+}
+.aboutItem {
+    border-bottom: 1px solid black;
+}
+
+/* -----SECTION TWO----- */
+
+#mainSection2 {
+    height: 100vh;
+    
+}
+#projectsHeader {
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+#abstractSec2 {
+    float: right;
+    height: 100vh;
+    width: 40%;
+    background-color: burlywood;
+}
+
+
+/* -----SECTION THREE----- */
+
+#mainSection3 {
+    height: 100vh;
+}
+#skillsHeader {
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+/* -----SECTION FOUR----- */
+
+#mainSection4 {
+    height: 100vh;
+    text-align: center;
+}
+
+#hobbiesHeader {
+    
+}
+
+/* -----FOOTER----- */
+
+.footer {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    height: 100vh;
+    line-height: 60px;
+    background-color: #273E47;
+    padding-top: 50vh;
+}
