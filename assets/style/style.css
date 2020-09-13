@@ -33,7 +33,7 @@ body {
 #mainSection1, #mainSection3 {
     background-color: chocolate;
 }
-#mainSection2, #mainSection4 {
+#mainSection4 {
     background-color: teal;
 }
 
@@ -73,30 +73,20 @@ body {
 /* -----SECTION TWO----- */
 
 #mainSection2 {
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 10%;
+    background: linear-gradient(90deg, teal 60%, burlywood 60%);
 }
 #projectsHeader {
     float: left;
     padding-left: 10%;
-    padding-top: 10%;
-    margin-bottom: 8%;
-}
-#abstractSec2 {
-    float: right;
-    position: absolute;
-    right: 0;
-    height: 100%;
-    width: 40%;
-    background-color: burlywood;
+    padding-top: 5%;
+    margin-bottom: 5%;
 }
 #projectSelector {
     margin-left: 40%;
     font-size: x-large;
-    white-space: nowrap;
-    border: 1px solid black;
-    background-color: tomato;
     float: left;
-    width: 20%;
     text-align: center;
 }
 #projectSelector:hover {
@@ -106,12 +96,15 @@ body {
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
-#projectCarousel {
+#projectCarouselFRONT, #projectCarouselBACK {
     float: right;
     margin-right: 10%;
     margin-top: 5%;
     height: 60%;
     width: 80%;
+}
+#projectCarouselBACK {
+    display: none;
 }
 
 
