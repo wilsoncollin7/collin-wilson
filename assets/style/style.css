@@ -1,4 +1,7 @@
 /* -----GLOBAL----- */
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(31, 31, 31);
 }
@@ -23,6 +26,7 @@ body {
 }
 #mainBottom {
     position: absolute;
+    color: black;
     bottom: 0;
     right: 48%;
 }
@@ -89,8 +93,11 @@ body {
     float: left;
     text-align: center;
 }
-#projectSelector:hover {
-    font-size: xx-large;
+/* #projectSelector:hover {
+    color: brown;
+} */
+.frontSelector {
+    color: white;
 }
 #projectSelText {
     writing-mode: vertical-rl;
@@ -99,7 +106,7 @@ body {
 #projectCarouselFRONT, #projectCarouselBACK {
     float: right;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
     height: 60%;
     width: 80%;
 }
@@ -124,10 +131,6 @@ body {
 #mainSection4 {
     height: 100vh;
     text-align: center;
-}
-
-#hobbiesHeader {
-    
 }
 
 /* -----FOOTER----- */
