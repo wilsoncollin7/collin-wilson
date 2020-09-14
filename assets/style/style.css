@@ -25,10 +25,9 @@ body {
     font-size: 100px;
 }
 #mainBottom {
-    position: absolute;
+    position: relative;
     color: black;
     bottom: 0;
-    right: 48%;
 }
 
 
@@ -37,33 +36,25 @@ body {
 #mainSection1, #mainSection3 {
     background-color: chocolate;
 }
-#mainSection4 {
-    background-color: teal;
-}
 
 /* -----SECTION ONE----- */
 
 #mainSection1 {
-    height: 100%;
+    height: 100vh;
     padding-bottom: 200px;
+    padding-top: 200px;
     text-align: center;
-}
-#triangle {
-    margin: auto;
-    width: 0%;
-    height: 0;
-    border-left: 40vw solid transparent;
-    border-right: 40vw solid transparent;
-    border-top: 40vw solid brown;
+    background: -webkit-linear-gradient(45deg, chocolate 49%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-45deg, chocolate 49%, brown 49%);
+    background: -o-linear-gradient(45deg, chocolate 49%, rgba(0,0,0,0) 30%), -o-linear-gradient(-45deg, chocolate 49%, brown 49%);
+    background: -moz-linear-gradient(45deg, chocolate 49%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-45deg, chocolate 49%, brown 49%);
+    background: linear-gradient(45deg, chocolate 49%, rgba(0,0,0,0) 30%), linear-gradient(-45deg, chocolate 49%, brown 49%);
 }
 #profile-pic {
     height: 500px;
     border-radius: 50%;
-    position: relative;
-    top: -450px;
 }
 #aboutHeader {
-    margin-top: -23%;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 .accordion {
@@ -93,15 +84,13 @@ body {
     float: left;
     text-align: center;
 }
-/* #projectSelector:hover {
-    color: brown;
-} */
 .frontSelector {
     color: white;
 }
 #projectSelText {
     writing-mode: vertical-rl;
     text-orientation: upright;
+    background-color: olive;
 }
 #projectCarouselFRONT, #projectCarouselBACK {
     float: right;
@@ -118,12 +107,43 @@ body {
 /* -----SECTION THREE----- */
 
 #mainSection3 {
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 15%;
 }
 #skillsHeader {
     float: right;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+#skillsRow {
+    margin-top: 5%;
+}
+#skillCard1, #skillCard2, #skillCard3 {
+    width: 350px;
+    margin-left: 20%;
+    border: transparent;
+    color: white;
+
+}
+#skillListEl {
+    list-style-type:none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#skillListHeader {
+    text-align: center;
+}
+.card-header {
+    background-color: darkolivegreen;
+}
+#skillCardBody {
+    background-color: darkslategray;
+}
+#skillListItem {
+    margin-bottom: 20px;
+}
+.progress-bar {
+    background-color: green;
 }
 
 /* -----SECTION FOUR----- */
@@ -131,6 +151,13 @@ body {
 #mainSection4 {
     height: 100vh;
     text-align: center;
+    background: -webkit-linear-gradient(130deg, olive 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, olive 40%, tan 40%);
+    background: -o-linear-gradient(130deg, olive 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, olive 40%, tan 40%);
+    background: -moz-linear-gradient(130deg, olive 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, olive 40%, tan 40%);
+    background: linear-gradient(130deg, olive 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, olive 40%, tan 40%);
+}
+#hobbiesHeader {
+    margin-top: 5%;
 }
 
 /* -----FOOTER----- */
