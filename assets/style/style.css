@@ -11,7 +11,7 @@ body {
 #headerContainer {
     font-family: 'Exo', sans-serif;
     height: 100vh;
-    background-color: rgba(183, 105, 53);
+    background-color: rgba(147, 94, 56);
     text-align: center;
     padding-top: 35vh;
     position: relative;
@@ -115,7 +115,7 @@ body {
     margin-right: 10%;
     margin-top: 3%;
     height: 60%;
-    width: 80%;
+    max-width: 80%;
 }
 #projectCarouselBACK {
     display: none;
@@ -201,10 +201,10 @@ body {
     height: 100%;
     text-align: center;
     position: relative;
-    background: -webkit-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(129, 88, 57) 40%);
-    background: -o-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(129, 88, 57) 40%);
-    background: -moz-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(129, 88, 57) 40%);
-    background: linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(129, 88, 57) 40%);
+    background: -webkit-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
+    background: -o-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
+    background: -moz-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
+    background: linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
     justify-content: center;
     align-items: center;
     padding-bottom: 5%;
