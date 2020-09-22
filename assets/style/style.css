@@ -1,6 +1,7 @@
 /* -----GLOBAL----- */
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 body {
     background-color: rgb(31, 31, 31);
@@ -20,14 +21,23 @@ body {
     background-color: burlywood;
     text-align: center;
     padding-top: 35vh;
+    position: relative;
 }
 #mainHeader {
     font-size: 100px;
 }
-#mainBottom {
+#scrollElem {
     position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+}
+#mainBottom {
+    position: absolute;
     color: black;
     bottom: 0;
+      
 }
 
 
@@ -108,6 +118,7 @@ body {
 
 #mainSection3 {
     height: 100%;
+    width: 100%;
     padding-bottom: 15%;
 }
 #skillsHeader {
@@ -117,13 +128,14 @@ body {
 }
 #skillsRow {
     margin-top: 5%;
+    justify-content: center;
+    align-items: center; 
 }
 #skillCard1, #skillCard2, #skillCard3 {
-    width: 350px;
-    margin-left: 20%;
+    margin-bottom: 5%;
     border: transparent;
     color: white;
-
+    
 }
 #skillListEl {
     list-style-type:none;
