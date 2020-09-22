@@ -12,3 +12,4 @@ $(".backSelector").on("click", function() {
     $(".backSelector").attr("style", "color: white;")
     $(".frontSelector").attr("style", "color: black;")
 });
+

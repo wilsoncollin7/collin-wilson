@@ -37,43 +37,43 @@
                 <h1 id="aboutHeader">WHO AM I?</h1>
                 <div class="accordion" id="aboutAccordion">
                   <div class="aboutItem">
-                    <div class="card-body" id="headingOne">
-                      <h2 class="mb-0">
-                        <button class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          UNC WILMINGTON GRADUATE
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#aboutAccordion">
-                      <div class="card-body">
-                        I graduated from UNC Wilmington in 2018. I have a bachelors in Political Science where I focused on international politics and terrorism. At university I was a pioneer student in their study abroad program to Aberdeen, Scotland. There I lived in Scotland for a year and traveled all over the continent!                      </div>
-                    </div>
+                        <div class="card-body" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block collapsed aboutBtn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            UNC WILMINGTON GRADUATE
+                            </button>
+                        </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#aboutAccordion">
+                        <div class="card-body">
+                            I graduated from UNC Wilmington in 2018. I have a bachelors in Political Science where I focused on international politics and terrorism. At university I was a pioneer student in their study abroad program to Aberdeen, Scotland. There I lived in Scotland for a year and traveled all over the continent!                      </div>
+                        </div>
                   </div>
                   <div class="aboutItem">
-                    <div class="card-body" id="headingTwo">
-                      <h2 class="mb-0">
-                        <button class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          UNC CHAPEL HILL TRAINED WEB DEVELOPER
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#aboutAccordion">
-                      <div class="card-body">
-                        I am currently enrolled at UNC Chapel Hill with their Full Stack Web Development program. Here I am learning everything there is to know about Full Stack Development. I am set to graduate the program in December of 2020!                      </div>
-                    </div>
+                        <div class="card-body" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block collapsed aboutBtn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            UNC CHAPEL HILL TRAINED WEB DEVELOPER
+                            </button>
+                        </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#aboutAccordion">
+                        <div class="card-body">
+                            I am currently enrolled at UNC Chapel Hill with their Full Stack Web Development program. Here I am learning everything there is to know about Full Stack Development. I am set to graduate the program in December of 2020!                      </div>
+                        </div>
                   </div>
                   <div class="aboutItemLast">
-                    <div class="card-body" id="headingThree">
-                      <h2 class="mb-0">
-                        <button class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          MAKER WITH A PASSION FOR ART AND DESIGN
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#aboutAccordion">
-                      <div class="card-body">
-                        I have a passion for working with my hands! I come from an artistic family where I was pushed to pursue my design skills and ideas. I have always had a great knack for graphic design and engineering. With my talents I have even broken into jewelry design!                      </div>
-                    </div>
+                        <div class="card-body" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block collapsed aboutBtn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            MAKER WITH A PASSION FOR ART AND DESIGN
+                            </button>
+                        </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#aboutAccordion">
+                        <div class="card-body">
+                            I have a passion for working with my hands! I come from an artistic family where I was pushed to pursue my design skills and ideas. I have always had a great knack for graphic design and engineering. With my talents I have even broken into jewelry design!                      </div>
+                        </div>
                   </div>
                 </div>
               </div>
@@ -115,33 +115,49 @@
               </div>
               <div class="col-lg-10">
                 <div id="projectCarouselFRONT" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner shadow">
+                  <div class="carousel-inner rounded shadow">
                     <div class="carousel-item active">
-                      <img src="./assets/dev-photos/website-pics/front/weather.jpg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                      </div>
+                        <img src="./assets/dev-photos/website-pics/front/weather.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>Earthlight Weather App</h5>
+                                <p class="card-text" id="portDes">Here is a weather app that lets the user search by cities. Once the user enters a city the weather information if pulled from the Open Weather Map API. That information is displayed using JavaScript and jQuery. The searched cities are also saved in the local storage of the browser and the user can jump back to those cities in the history section.</p>
+                                <a href="https://wilsoncollin7.github.io/Earthlight/" class="btn portBtn shadow" target="#">Let's see it!</a>
+                                <a href="https://github.com/wilsoncollin7/Earthlight" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="./assets/dev-photos/website-pics/front/movie.jpg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                      </div>
+                        <img src="./assets/dev-photos/website-pics/front/movie.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>Movie Search</h5>
+                                <p class="card-text" id="portDes">With this app, our team created an interactive movie dashboard using the The Movie DB API to pull various movie information, the New York Times API to pull movie review information, and the FourSquare Places API to pull movie theater data close to the user's zip code.</p>
+                                <a href="https://wilsoncollin7.github.io/project1/" class="btn portBtn shadow" target="#">Let's see it!</a>
+                                <a href="https://github.com/wilsoncollin7/project1" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="./assets/dev-photos/website-pics/front/generator.JPG" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                      </div>
+                        <img src="./assets/dev-photos/website-pics/front/generator.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>Password Generator</h5>
+                                <p class="card-text" id="portDes">Here is an application to generate a password to the users’ specifications. It uses HTML, CSS, and JavaScript to create a dynamic webpage. This password generator will take in input from the user and determine the strings of characters to use in the generation of a password. Each password if randomly generated.</p>
+                                <a href="https://wilsoncollin7.github.io/Password-Generator/" class="btn portBtn shadow" target="#">Let's see it!</a>
+                                <a href="https://github.com/wilsoncollin7/Password-Generator" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./assets/dev-photos/website-pics/front/planner.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>fourth slide label</h5>
-                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>Daily Planner</h5>
+                                <p class="card-text" id="portDes">Scheduling application that helps the user stay organized by saving their daily tasks.</p>
+                                <a href="https://wilsoncollin7.github.io/work-day-scheduler/" class="btn portBtn shadow" target="#">Let's see it!</a>
+                                <a href="https://github.com/wilsoncollin7/work-day-scheduler" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
                         </div>
                       </div>
                   </div>
@@ -153,35 +169,48 @@
                   </a>
                 </div>
                 <div id="projectCarouselBACK" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner shadow">
+                  <div class="carousel-inner rounded shadow">
                     <div class="carousel-item active">
-                      <img src="./assets/dev-photos/website-pics/back/employee.JPG" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                      </div>
+                        <img src="./assets/dev-photos/website-pics/back/employee.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>Employee Management System</h5>
+                                <p>This project allows a manager to manage their employees! The user can cycle through several differnt options to view differnt sets of data, add data, update data, and delete data! This program is made using Node.js and MySQL.</p>
+                                <a href="https://github.com/wilsoncollin7/employee-management-system" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="./assets/dev-photos/website-pics/back/note.JPG" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                      </div>
+                        <img src="./assets/dev-photos/website-pics/back/note.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>Note Taking App</h5>
+                                <p>This project uses a deployed app on Heroku. The application helps the user take notes. The user enters a title and note body, then saves the note. This note is saved on a server. There are GET and POST requests to retrive the notes and display them. The user can also delete a note once they are done with it.</p>
+                                <a href="https://wilsoncollin7-note.herokuapp.com/" class="btn portBtn shadow" target="#">Let's see it!</a>
+                                <a href="https://github.com/wilsoncollin7/note" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="./assets/dev-photos/website-pics/back/team.JPG" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                      </div>
+                        <img src="./assets/dev-photos/website-pics/back/team.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>Team Builder</h5>
+                                <p class="card-text" id="portDes">This application creates a team HTML that displays inputed employees so that managers can see thier teams they created. The teams are created after asking the user questions; those answers are then dynamically rendered into a HTML output file which displays the teams in thier own cards.</p>
+                                <a href="https://github.com/wilsoncollin7/team-builder" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./assets/dev-photos/website-pics/back/readme.JPG" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>fourth slide label</h5>
-                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <div class="carousel-caption d-none d-md-block rounded">
+                            <div id="captionContent">
+                                <h5>README.md Generator</h5>
+                                <p class="card-text" id="portDes">This application will generate a README.md file based off of the inputs from the user in a node.js terminal. These inputs are then written to a new file that can be used in any project!</p>
+                                <a href="https://github.com/wilsoncollin7/README-Generator" class="btn portGitBtn shadow" target="#">GitHub</a>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                   </div>
                   <a class="carousel-control-prev" href="#projectCarouselBACK" role="button" data-slide="prev">
                     <span class="sr-only">Previous</span>

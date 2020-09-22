@@ -6,13 +6,6 @@ html {
 body {
     background-color: rgb(31, 31, 31);
 }
-.btn {
-    background-color: transparent !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    border: 1px solid transparent !important;
-    background-image: none; 
-}
 
 /* -----HEADER CONTAINER----- */
 
@@ -111,6 +104,26 @@ body {
 }
 #projectCarouselBACK {
     display: none;
+}
+.carousel-caption{
+    position: absolute;
+    height: 250px;
+    background-color: rgb(255, 69, 0,.8);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    padding: 3%;
+    z-index: 1;
+}
+#captionContent {
+    position: relative;
+    z-index: 2;
+}
+.portBtn {
+    color: white;
+    background-color: olive;
+}
+.portGitBtn {
+    color: white;
+    background-color: darkslategray;
 }
 
 
