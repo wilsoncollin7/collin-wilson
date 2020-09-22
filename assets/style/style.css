@@ -83,7 +83,7 @@ body {
     font-family: 'Exo', sans-serif;
     height: 100%;
     padding-bottom: 10%;
-    background: linear-gradient(90deg, rgba(20, 54, 66) 60%, rgba(74, 71, 62) 60%);
+    background: linear-gradient(90deg, rgba(20, 54, 66) 60%, rgba(147, 94, 56) 60%);
 }
 #projectsHeader {
     color: white;
@@ -149,7 +149,7 @@ body {
 /* -----SECTION THREE----- */
 
 #mainSection3 {
-    background-color: rgba(165, 99, 54);
+    background-color: rgba(56, 65, 63);
     font-family: 'Exo', sans-serif;
     height: 100%;
     width: 100%;
@@ -185,7 +185,7 @@ body {
     background-color: rgba(88, 81, 35);
 }
 #skillCardBody {
-    background-color: rgba(38, 60, 65);
+    background-color: rgba(20, 54, 66);
 }
 #skillListItem {
     margin-bottom: 20px;
@@ -201,10 +201,10 @@ body {
     height: 100%;
     text-align: center;
     position: relative;
-    background: -webkit-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
-    background: -o-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
-    background: -moz-linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
-    background: linear-gradient(130deg, rgba(20, 54, 66) 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, rgba(20, 54, 66) 40%, rgba(165, 99, 54) 40%);
+    background: -webkit-linear-gradient(130deg, rgba(165, 99, 54) 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, rgba(165, 99, 54) 40%, rgba(20, 54, 66) 40%);
+    background: -o-linear-gradient(130deg, rgba(165, 99, 54) 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, rgba(165, 99, 54) 40%, rgba(20, 54, 66) 40%);
+    background: -moz-linear-gradient(130deg, rgba(165, 99, 54) 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, rgba(165, 99, 54) 40%,rgba(20, 54, 66) 40%);
+    background: linear-gradient(130deg, rgba(165, 99, 54) 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, rgba(165, 99, 54) 40%, rgba(20, 54, 66) 40%);
     justify-content: center;
     align-items: center;
     padding-bottom: 5%;
@@ -227,7 +227,7 @@ body {
     color: white;
 }
 #contact, #checkOut {
-    background-color: rgba(129, 88, 57);
+    background-color: rgba(20, 54, 66);
     color: white;
     text-align: center;
     font-size: 20px;
@@ -249,7 +249,7 @@ body {
     position: relative;
     bottom: 0;
     height: 100%;
-    background-color: #273E47;
+    background-color: rgba(56, 65, 63);
     padding-top: 10%;
     padding-bottom: 3%;
 }
