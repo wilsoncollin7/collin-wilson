@@ -99,6 +99,7 @@ body {
     padding-left: 10%;
     padding-top: 5%;
     margin-bottom: 5%;
+    border-bottom: 1px solid white;
 }
 #projectSelector {
     margin-left: 40%;
@@ -130,7 +131,7 @@ body {
 .carousel-caption{
     position: absolute;
     height: 250px;
-    background-color: rgb(129, 88, 57,.8);
+    background-color: rgb(147, 94, 56,.8);
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     padding: 3%;
     z-index: 1;
@@ -166,8 +167,9 @@ body {
     color: white;
     font-weight: bold;
     float: right;
-    margin-right: 10%;
+    padding-right: 10%;
     margin-top: 5%;
+    border-bottom: 1px solid white;
 }
 #skillsRow {
     margin-top: 5%;
@@ -192,6 +194,10 @@ body {
 }
 .card-header {
     background-color: rgba(88, 81, 35);
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
 }
 #skillCardBody {
     background-color: rgba(20, 54, 66);
@@ -199,10 +205,9 @@ body {
 #skillListItem {
     margin-bottom: 20px;
 }
-.progress-bar {
-    background-color: green;
+.fab {
+    height: 20px;
 }
-
 /* -----SECTION FOUR----- */
 
 #mainSection4 {
@@ -249,6 +254,10 @@ body {
 
 
 /* -----FOOTER----- */
+.footerHeader {
+    border-bottom: 1px solid white;
+
+}
 #contact, #checkOut {
     background-color: rgba(20, 54, 66);
     color: white;
