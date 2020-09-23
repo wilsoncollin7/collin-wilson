@@ -13,8 +13,15 @@ body {
     height: 100vh;
     background-color: rgba(147, 94, 56);
     text-align: center;
-    padding-top: 35vh;
-    position: relative;
+    padding-top: 30vh;
+}
+.nav-bar {
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+.nav-link {
+    color: black;
 }
 #mainHeader {
     font-weight: bold;
@@ -175,6 +182,8 @@ body {
 }
 #skillListEl {
     list-style-type:none;
+    text-align: center;
+    height: 200px;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -226,6 +235,20 @@ body {
     margin: 2%;
     color: white;
 }
+#bottomScrollElem {
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+#hobbyBottom {
+    position: absolute;
+    color: white;
+    bottom: 10px; left: 0; right: 0;
+      
+}
+
+
+/* -----FOOTER----- */
 #contact, #checkOut {
     background-color: rgba(20, 54, 66);
     color: white;
@@ -239,9 +262,6 @@ body {
 #emailLink, #resumeLink, #gitLink {
     color: white;
 }
-
-/* -----FOOTER----- */
-
 .footer {
     font-family: 'Exo', sans-serif;
     color: white;

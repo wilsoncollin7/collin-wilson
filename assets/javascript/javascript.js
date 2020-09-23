@@ -19,4 +19,5 @@ const tl = new TimelineMax();
 tl.fromTo($("#headerContainer"), 1, { y: "-100%" }, { y: "0%", ease: Power2.easeInOut })
 .fromTo($("#mainHeader"), 0.4, { opacity: 0, x: 30 }, {opacity: 1, x: 0 })
 .fromTo($("#mainSubHeader"), 0.4, { opacity: 0, x: 30 }, {opacity: 1, x: 0 })
-.fromTo($("#mainBottom"), 0.4, { opacity: 0, x: 30 }, {opacity: 1, x: 0 }, "-=0.4");
+.fromTo($(".nav-bar"), 1, {width: "0%", opacity: 0}, {width: "100%", opacity: 1, ease: Power2.easeInOut})
+.fromTo($("#mainBottom"), 0.4, { opacity: 0, x: 30 }, {opacity: 1, x: 0 });
