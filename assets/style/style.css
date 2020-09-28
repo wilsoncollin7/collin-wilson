@@ -11,17 +11,19 @@ body {
 #headerContainer {
     font-family: 'Exo', sans-serif;
     height: 100vh;
-    background-color: rgba(147, 94, 56);
+    background-image: ;
+    /* background-color: rgba(147, 94, 56); */
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 40vh;
+    color: rgb(243, 243, 243);
 }
 .nav-bar {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(243, 243, 243);
     position: fixed;
     top: 0; left: 0; right: 0;
 }
 .nav-link {
-    color: black;
+    color: rgb(243, 243, 243);
 }
 #mainHeader {
     font-weight: bold;
@@ -36,7 +38,7 @@ body {
 }
 #mainBottom {
     position: absolute;
-    color: black;
+    color: rgb(243, 243, 243);
     bottom: 0;
       
 }
@@ -49,7 +51,7 @@ body {
 /* -----SECTION ONE----- */
 
 #mainSection1 {
-    color: white;
+    color: rgb(243, 243, 243);
     font-family: 'Exo', sans-serif;
     height: 100vh;
     padding-bottom: 200px;
@@ -74,11 +76,11 @@ body {
     margin: auto;
 }
 .aboutItem {
-    color: white;
-    border-bottom: 1px solid white;
+    color: rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(243, 243, 243);
 }
 .aboutBtn {
-    color: white;
+    color: rgb(243, 243, 243);
 }
 .aboutBtn:hover {
     background-color: rgba(183, 105, 53,.5);
@@ -93,13 +95,13 @@ body {
     background: linear-gradient(90deg, rgba(20, 54, 66) 60%, rgba(147, 94, 56) 60%);
 }
 #projectsHeader {
-    color: white;
+    color: rgb(243, 243, 243);
     font-weight: bold;
     float: left;
     padding-left: 10%;
     padding-top: 5%;
     margin-bottom: 5%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(243, 243, 243);
 }
 #projectSelector {
     margin-left: 40%;
@@ -108,7 +110,7 @@ body {
     text-align: center;
 }
 .frontSelector {
-    color: white;
+    color: rgb(243, 243, 243);
 }
 #projectSelector:hover {
     background: rgba(255,255,255,0.2);
@@ -145,11 +147,11 @@ body {
     z-index: 2;
 }
 .portBtn {
-    color: white;
+    color: rgb(243, 243, 243);
     background-color: rgba(88, 81, 35);
 }
 .portGitBtn {
-    color: white;
+    color: rgb(243, 243, 243);
     background-color: rgba(20, 54, 66);
 }
 
@@ -164,12 +166,12 @@ body {
     padding-bottom: 15%;
 }
 #skillsHeader {
-    color: white;
+    color: rgb(243, 243, 243);
     font-weight: bold;
     float: right;
     padding-right: 10%;
     margin-top: 5%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(243, 243, 243);
 }
 #skillsRow {
     margin-top: 5%;
@@ -179,7 +181,7 @@ body {
 #skillCard1, #skillCard2, #skillCard3 {
     margin-bottom: 5%;
     border: transparent;
-    color: white;
+    color: rgb(243, 243, 243);
     
 }
 #skillListEl {
@@ -194,7 +196,7 @@ body {
 }
 .card-header {
     background-color: rgba(88, 81, 35);
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(243, 243, 243);
     font-weight: bold;
     font-size: 24px;
     padding: 20px;
@@ -224,7 +226,7 @@ body {
     padding-bottom: 5%;
 }
 #hobbiesHeader {
-    color: white;
+    color: rgb(243, 243, 243);
     font-weight: bold;
     margin-top: 5%;
 }
@@ -233,12 +235,12 @@ body {
     margin: 5%;
     padding: 20px;
     background-color:rgba(88, 81, 35);
-    color: white;
+    color: rgb(243, 243, 243);
 }
 .icon {
     height: 150px;
     margin: 2%;
-    color: white;
+    color: rgb(243, 243, 243);
 }
 #bottomScrollElem {
     position: relative;
@@ -247,7 +249,7 @@ body {
 }
 #hobbyBottom {
     position: absolute;
-    color: white;
+    color: rgb(243, 243, 243);
     bottom: 10px; left: 0; right: 0;
       
 }
@@ -255,12 +257,12 @@ body {
 
 /* -----FOOTER----- */
 .footerHeader {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(243, 243, 243);
 
 }
 #contact, #checkOut {
     background-color: rgba(20, 54, 66);
-    color: white;
+    color: rgb(243, 243, 243);
     text-align: center;
     font-size: 20px;
     margin-left: 15%;
@@ -269,11 +271,11 @@ body {
     padding: 5%;
 }
 #emailLink, #resumeLink, #gitLink {
-    color: white;
+    color: rgb(243, 243, 243);
 }
 .footer {
     font-family: 'Exo', sans-serif;
-    color: white;
+    color: rgb(243, 243, 243);
     text-align: center;
     position: relative;
     bottom: 0;
