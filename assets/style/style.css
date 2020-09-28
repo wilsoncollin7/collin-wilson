@@ -8,39 +8,62 @@ body {
 
 /* -----HEADER CONTAINER----- */
 
-#headerContainer {
-    font-family: 'Exo', sans-serif;
+header {
+    overflow: hidden;
+    position: relative;
+}
+#headerImage {
     height: 100vh;
-    background-image: ;
-    /* background-color: rgba(147, 94, 56); */
+    width: 5076px;
+    background: url("../dev-photos/mountians.jpg") repeat-x;
+    animation: slide 60s linear infinite;
+}
+.headerOverlay {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    font-family: 'Exo', sans-serif;
     text-align: center;
-    padding-top: 40vh;
     color: rgb(243, 243, 243);
 }
 .nav-bar {
-    border-bottom: 1px solid rgb(243, 243, 243);
-    position: fixed;
-    top: 0; left: 0; right: 0;
+    position: absolute;
+    /* border-bottom: 1px solid rgb(243, 243, 243); */
+    background-color: rgba(32, 32, 32, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 .nav-link {
     color: rgb(243, 243, 243);
 }
+.mainHeaderWrapper {
+    background-color: rgba(32, 32, 32, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30vh;
+    padding: 50px;
+}
 #mainHeader {
     font-weight: bold;
     font-size: 100px;
+    
 }
 #scrollElem {
-    position: relative;
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;  
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
 }
 #mainBottom {
-    position: absolute;
-    color: rgb(243, 243, 243);
-    bottom: 0;
-      
+    color: rgb(243, 243, 243);    
+}
+
+@keyframes slide {
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0);
+    }
 }
 
 
