@@ -1,4 +1,26 @@
 /* ----- media queries ----- */
+@media screen and (max-width: 1000px) {
+    #mainSection2 {
+        height: 50vh;
+    }
+    .frontSelector {
+        margin-left: 100%;
+    }
+    #projectSelector {
+        width: 200px;
+    }
+    #projectSelText {
+        writing-mode: horizontal-tb; 
+    }
+    #frontRow, #backRow {
+        display: inline-flex;
+        justify-content: center;
+    }
+    #contact, #checkOut {
+        margin: auto;
+        margin-bottom: 10%;
+    }
+}
 
 @media screen and (max-width: 900px) {
     .mainHeaderWrapper {
@@ -10,9 +32,11 @@
     #mainBottom {
         font-size: 25px;
     }
+    #contact, #checkOut {
+        margin: auto;
+        margin-bottom: 10%;
+    }
 }
-
-
 
 @media screen and (max-width: 700px) {
     .nav {
@@ -25,4 +49,5 @@
         height: 400px;
         margin-bottom: 10%;
     }
+    
 }
