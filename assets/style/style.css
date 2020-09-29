@@ -80,14 +80,15 @@ header {
     padding-bottom: 200px;
     padding-top: 200px;
     text-align: center;
-    background: -webkit-linear-gradient(45deg, rgb(65, 63, 60) 49%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-45deg,  rgb(65, 63, 60) 49%, #4B9CD3 49%);
-    background: -o-linear-gradient(45deg,  rgb(65, 63, 60) 49%, rgba(0,0,0,0) 30%), -o-linear-gradient(-45deg,  rgb(65, 63, 60) 49%, #4B9CD3 49%);
-    background: -moz-linear-gradient(45deg,  rgb(65, 63, 60) 49%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-45deg,  rgb(65, 63, 60) 49%, #4B9CD3 49%);
-    background: linear-gradient(45deg,  rgb(65, 63, 60) 49%, rgba(0,0,0,0) 30%), linear-gradient(-45deg,  rgb(65, 63, 60) 49%, #4B9CD3 49%);
+    background: -webkit-linear-gradient(45deg, rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
+    background: -o-linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -o-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
+    background: -moz-linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
+    background: linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
 }
 #profile-pic {
     height: 500px;
     border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 #aboutHeader {
     font-weight: bold;
@@ -115,7 +116,7 @@ header {
     font-family: 'Exo', sans-serif;
     height: 100%;
     padding-bottom: 10%;
-    background: linear-gradient(90deg, #EEEBE7 60%, #4B9CD3 60%);
+    background: linear-gradient(90deg, rgba(210, 210, 210) 60%, #4B9CD3 60%);
 }
 #projectsHeader {
     color: #151513;
@@ -136,7 +137,7 @@ header {
     color: #4B9CD3;
 }
 .backSelector {
-    color: #EEEBE7;
+    color: #FFFCF2;
 }
 #projectSelector:hover {
     background: rgb(75, 156, 211,0.5);
@@ -144,17 +145,24 @@ header {
 #projectSelText {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    background-color: rgb(65, 63, 60);
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 #projectCarouselFRONT, #projectCarouselBACK {
-    float: right;
+    position: absolute;
+    right: 0;
     margin-right: 10%;
     margin-top: 3%;
     height: 60%;
     max-width: 80%;
 }
 #projectCarouselBACK {
-    display: none;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.carousel-inner {
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 .carousel-caption{
     position: absolute;
@@ -174,18 +182,18 @@ header {
 }
 .portBtn {
     color: #151513;
-    background-color: #EEEBE7;
+    background-color: rgba(210, 210, 210);
 }
 .portGitBtn {
     color: #FFFCF2;
-    background-color: rgb(65, 63, 60);
+    background-color: rgb(39, 39, 39);
 }
 
 
 /* -----SECTION THREE----- */
 
 #mainSection3 {
-    background-color: rgb(65, 63, 60);
+    background-color: rgb(39, 39, 39);
     font-family: 'Exo', sans-serif;
     height: 100%;
     width: 100%;
@@ -208,7 +216,7 @@ header {
     margin-bottom: 5%;
     border: transparent;
     color: #FFFCF2;
-    
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 #skillListEl {
     list-style-type:none;
@@ -229,7 +237,7 @@ header {
 }
 #skillCardBody {
     color: #151513;
-    background-color: #EEEBE7;
+    background-color: rgba(210, 210, 210);
 }
 #skillListItem {
     margin-bottom: 20px;
@@ -244,10 +252,10 @@ header {
     height: 100%;
     text-align: center;
     position: relative;
-    background: -webkit-linear-gradient(130deg, #EEEBE7 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, #EEEBE7 40%, #4B9CD3 40%);
-    background: -o-linear-gradient(130deg, #EEEBE7 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, #EEEBE7 40%, #4B9CD3 40%);
-    background: -moz-linear-gradient(130deg, #EEEBE7 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, #EEEBE7 40%,#4B9CD3 40%);
-    background: linear-gradient(130deg, #EEEBE7 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, #EEEBE7 40%, #4B9CD3 40%);
+    background: -webkit-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
+    background: -o-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
+    background: -moz-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, rgba(210, 210, 210) 40%,#4B9CD3 40%);
+    background: linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
     justify-content: center;
     align-items: center;
     padding-bottom: 5%;
@@ -261,13 +269,15 @@ header {
     height: 100%;
     margin: 5%;
     padding: 20px;
-    background-color:rgb(65, 63, 60);
+    background-color:rgb(39, 39, 39);
     color: #FFFCF2;
 }
 .icon {
     height: 150px;
     margin: 2%;
-    color: #FFFCF2;
+    background-color: rgba(210, 210, 210);
+    padding: 10px;
+    border-radius: 10px;
 }
 #bottomScrollElem {
     position: relative;
@@ -307,7 +317,7 @@ header {
     position: relative;
     bottom: 0;
     height: 100%;
-    background-color: #22221f;
+    background-color: rgba(39, 39, 39);
     padding-top: 10%;
     padding-bottom: 3%;
 }
