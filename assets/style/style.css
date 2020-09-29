@@ -26,11 +26,18 @@ header {
     text-align: center;
     color: #FFFCF2;
 }
-.nav-bar {
-    position: absolute;
-    /* border-bottom: 1px solid #FFFCF2; */
+.navbar {
     background-color: rgba(32, 32, 32, 0.2);
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 100%;
+}
+.navbar-collapse {
+    justify-content: center;
+}
+.navbar-toggler-icon {
+    color: #FFFCF2;
+    font-size: 50px;
+    padding-top: 7px;
 }
 .nav-link {
     color: #FFFCF2;
@@ -76,9 +83,9 @@ header {
 #mainSection1 {
     color: #FFFCF2;
     font-family: 'Exo', sans-serif;
-    height: 100vh;
+    height: 100%;
     padding-bottom: 200px;
-    padding-top: 200px;
+    padding-top: 10%;
     text-align: center;
     background: -webkit-linear-gradient(45deg, rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
     background: -o-linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -o-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
@@ -89,10 +96,10 @@ header {
     height: 500px;
     border-radius: 50%;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-bottom: 5%;
 }
 #aboutHeader {
     font-weight: bold;
-    margin-top: 2%;
     margin-bottom: 2%;
 }
 .accordion {
@@ -321,6 +328,4 @@ header {
     padding-top: 10%;
     padding-bottom: 3%;
 }
-
-/* ----- media queries ----- */
 

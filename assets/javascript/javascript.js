@@ -7,7 +7,7 @@ const openAnim = function() {
     .fromTo($(".mainHeaderWrapper"), 0.4, { opacity: 0, x: 30 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     .fromTo($("#mainHeader"), 0.4, { opacity: 0, x: 30 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     .fromTo($("#mainSubHeader"), 0.4, { opacity: 0, x: 30 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
-    .fromTo($(".nav-bar"), 1, {width: "0%", opacity: 0}, {width: "100%", opacity: 1, ease: Power2.easeInOut}, "-=0.4")
+    .fromTo($(".navbar"), 1, {width: "0%", opacity: 0}, {width: "100%", opacity: 1, ease: Power2.easeInOut}, "-=0.4")
     .fromTo($("#mainBottom"), 1, { opacity: 0, x: 30 }, { opacity: 1, x: 0, ease: Power2.easeInOut }, "-=0.4");
 };
 
