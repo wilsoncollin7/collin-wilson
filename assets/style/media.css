@@ -37,6 +37,9 @@
   .nav-link {
     font-size: 50px;
   }
+  #projectCarouselFRONT, #projectCarouselBACK {
+    margin: auto;  
+  }
   #mainBottom {
     font-size: 25px;
   }
@@ -84,7 +87,7 @@
   }
   /* ----------------------------------- */
   #mainSection2 {
-    height: 55vh;
+    height: 60vh;
   }
   .selectorRow {
     margin-left: 5%;
@@ -96,7 +99,7 @@
     width: 55%;
   }
   #projectCarouselFRONT, #projectCarouselBACK {
-    height: 100%;
+    margin: auto;  
   }
   .carousel-caption {
     font-size: 10px;

@@ -122,26 +122,26 @@ header {
 /* -----SECTION TWO----- */
 
 #mainSection2 {
-    font-family: 'Exo', sans-serif;
-    height: 100%;
-    padding-bottom: 150px;
-    background: linear-gradient(90deg, rgba(210, 210, 210) 60%, #4B9CD3 60%);
-    overflow: hidden;
+  font-family: 'Exo', sans-serif;
+  height: 100%;
+  padding-bottom: 150px;
+  background: linear-gradient(90deg, rgba(210, 210, 210) 60%, #4B9CD3 60%);
+  overflow: hidden;
 }
 #projectsHeader {
-    color: #151513;
-    font-weight: bold;
-    float: left;
-    padding-left: 10%;
-    padding-top: 5%;
-    margin-bottom: 5%;
-    border-bottom: 1px solid #151513;
+  color: #151513;
+  font-weight: bold;
+  float: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  margin-bottom: 5%;
+  border-bottom: 1px solid #151513;
 }
 #projectSelector {
-    margin-left: 40%;
-    font-size: x-large;
-    float: left;
-    text-align: center;
+  margin-left: 40%;
+  font-size: x-large;
+  float: left;
+  text-align: center;
 }
 .frontSelector {
   color: #4B9CD3;
@@ -150,7 +150,7 @@ header {
   color: #FFFCF2;
 }
 #projectSelector:hover {
-    background: rgb(75, 156, 211,0.5);
+  background: rgb(75, 156, 211,0.5);
 }
 #projectSelText {
   writing-mode: vertical-rl;
@@ -161,14 +161,13 @@ header {
 #projectCarouselFRONT, #projectCarouselBACK {
   position: absolute;
   right: 0;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-right: 10%;
-  height: 60%;
-  max-width: 80%;
+  max-width: 1020px;
 }
 #projectCarouselBACK {
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 .carousel-inner {
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
