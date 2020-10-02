@@ -19,7 +19,7 @@
     margin-left: 20%;
   }
   #projectSelText {
-      writing-mode: horizontal-tb; 
+    writing-mode: horizontal-tb; 
   }
   #frontRow, #backRow {
     display: inline-flex;
@@ -86,19 +86,21 @@
   #mainSection2 {
     height: 100vh;
   }
-  #projectCarouselFRONT, #projectCarouselBACK {
-  }
   .selectorRow {
     margin-left: 5%;
-  }
-  .carousel-caption {
-    position: relative;
   }
   #projectSelText {
     font-size: 20px;
   }
   #frontRow, #backRow {
     width: 55%;
+  }
+  .carousel-caption {
+    font-size: 10px;
+    height: 100%;
+  }
+  #portDes {
+    display: none;
   }
   /* ----------------------------------- */
   #contact, #checkOut {
