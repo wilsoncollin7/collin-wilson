@@ -104,8 +104,9 @@ header {
   margin-bottom: 2%;
 }
 .accordion {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
+  text-align: justify;
 }
 .aboutItem {
     color: #FFFCF2;
@@ -159,8 +160,8 @@ header {
 }
 #projectCarouselFRONT, #projectCarouselBACK {
   position: absolute;
-  right: 0; top: 0;  bottom: 0; 
-  margin: auto;
+  right: 0;
+  margin-top: 2%;
   margin-right: 10%;
   height: 60%;
   max-width: 80%;
@@ -249,36 +250,36 @@ header {
 /* -----SECTION FOUR----- */
 
 #mainSection4 {
-    font-family: 'Exo', sans-serif;
-    height: 100%;
-    text-align: center;
-    position: relative;
-    background: -webkit-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
-    background: -o-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
-    background: -moz-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, rgba(210, 210, 210) 40%,#4B9CD3 40%);
-    background: linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5%;
+  font-family: 'Exo', sans-serif;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  background: -webkit-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
+  background: -o-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -o-linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
+  background: -moz-linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-130deg, rgba(210, 210, 210) 40%,#4B9CD3 40%);
+  background: linear-gradient(130deg, rgba(210, 210, 210) 40%, rgba(0,0,0,0) 30%), linear-gradient(-130deg, rgba(210, 210, 210) 40%, #4B9CD3 40%);
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
 }
 #hobbiesHeader {
-    color: #151513;
-    font-weight: bold;
-    margin-top: 5%;
+  color: #151513;
+  font-weight: bold;
+  margin-top: 5%;
 }
 #hoddiesContainer {
-    height: 100%;
-    margin: 5%;
-    padding: 20px;
-    background-color:rgb(39, 39, 39);
-    color: #FFFCF2;
+  height: 100%;
+  margin: 5%;
+  padding: 20px;
+  background-color:rgb(39, 39, 39);
+  color: #FFFCF2;
 }
 .icon {
-    height: 150px;
-    margin: 2%;
-    background-color: rgba(210, 210, 210);
-    padding: 10px;
-    border-radius: 10px;
+  height: 150px;
+  margin: 2%;
+  background-color: rgba(210, 210, 210);
+  padding: 10px;
+  border-radius: 10px;
 }
 #bottomScrollElem {
     position: relative;
@@ -303,7 +304,7 @@ header {
     color: #FFFCF2;
     text-align: center;
     font-size: 20px;
-    margin-left: 15%;
+    margin: auto;
     margin-bottom: 15%;
     width: 500px;
     padding: 5%;
