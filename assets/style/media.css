@@ -1,53 +1,100 @@
 /* ----- media queries ----- */
 @media screen and (max-width: 1000px) {
     #mainSection2 {
-        height: 50vh;
+      height: 55vh;
     }
     .frontSelector {
-        margin-left: 100%;
+      margin-left: 15%px;  
     }
     #projectSelector {
-        width: 200px;
+      margin: auto;
+    }
+    .selectorRow {
+      margin-left: 20%;
     }
     #projectSelText {
         writing-mode: horizontal-tb; 
     }
     #frontRow, #backRow {
-        display: inline-flex;
-        justify-content: center;
+      display: inline-flex;
     }
     #contact, #checkOut {
-        margin: auto;
-        margin-bottom: 10%;
+      margin: auto;
+      margin-bottom: 10%;
     }
 }
 
 @media screen and (max-width: 900px) {
     .mainHeaderWrapper {
-        width: auto;
+      width: auto;
     }
     .nav-link {
-        font-size: 50px;
+      font-size: 50px;
     }
     #mainBottom {
-        font-size: 25px;
+      font-size: 25px;
     }
     #contact, #checkOut {
-        margin: auto;
-        margin-bottom: 10%;
+      margin: auto;
+      margin-bottom: 10%;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .nav {
-        flex-direction: column;
-    }
-    #mainSection1 {
-        padding-top: 15%;
-    }
-    #profile-pic {
-        height: 400px;
-        margin-bottom: 10%;
-    }
-    
+  .navbar {
+    position: relative;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav-link {
+    font-size: 30px;
+  }
+  .accordion {
+    margin: 0;
+    width: 100%;
+  }
+  #mainSection1 {
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
+  #profile-pic {
+    height: 400px;
+    margin-bottom: 10%;
+    background-color: #4B9CD3;
+    padding: 20px;
+  }
+  #mainHeader {
+    font-size: 80px;
+  }
+  #mainBottom {
+    font-size: 15px;
+  }
+  #mainSection1 {
+    background: rgb(39, 39, 39);
+  }
+  #mainSection2 {
+    height: 50vh;
+  }
+  #projectCarouselFRONT, #projectCarouselBACK {
+    margin-top: 30px;
+  }
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    height: 83%;
+  }
+  .carousel-caption {
+    position: relative;
+    height: 60%;
+  }
+  #captionContent {
+    position: absolute;
+  }
+  #portDes {
+    display: none;
+  }
+  #contact, #checkOut {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10%;
+  }
 }

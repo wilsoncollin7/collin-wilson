@@ -13,11 +13,11 @@ header {
     position: relative;
 }
 #headerImage {
-    height: 100vh;
-    width: 5076px;
-    background: url("../dev-photos/mountians.jpg") repeat-x;
-    animation: slide 60s linear infinite;
-    object-fit: cover;
+  position: relative;
+  height: 100vh;
+  width: 5076px;
+  background: url("../dev-photos/mountians.jpg") repeat-x;
+  animation: slide 60s linear infinite;
 }
 .headerOverlay {
     position: absolute;
@@ -27,12 +27,13 @@ header {
     color: #FFFCF2;
 }
 .navbar {
-    background-color: rgba(32, 32, 32, 0.2);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    width: 100%;
+  position: absolute;
+  background-color: rgba(32, 32, 32, 0.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  width: 100%;
 }
 .navbar-collapse {
-    justify-content: center;
+  justify-content: center;
 }
 .navbar-toggler-icon {
     color: #FFFCF2;
@@ -40,7 +41,7 @@ header {
     padding-top: 7px;
 }
 .nav-link {
-    color: #FFFCF2;
+  color: #FFFCF2;
 }
 .mainHeaderWrapper {
     background-color: rgba(32, 32, 32, 0.2);
@@ -48,7 +49,7 @@ header {
     border-radius: 10px;
     width: 50%;
     margin: auto;
-    margin-top: 30vh;
+    margin-top: 10vh;
     padding: 50px;
 }
 #mainHeader {
@@ -65,12 +66,12 @@ header {
 }
 
 @keyframes slide {
-    0%{
-      transform: translate3d(0, 0, 0);
-    }
-    100%{
-      transform: translate3d(-1692px, 0, 0);
-    }
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
 }
 
 
@@ -99,8 +100,8 @@ header {
     margin-bottom: 5%;
 }
 #aboutHeader {
-    font-weight: bold;
-    margin-bottom: 2%;
+  font-weight: bold;
+  margin-bottom: 2%;
 }
 .accordion {
     width: 50%;
@@ -142,10 +143,10 @@ header {
     text-align: center;
 }
 .frontSelector {
-    color: #4B9CD3;
+  color: #4B9CD3;
 }
 .backSelector {
-    color: #FFFCF2;
+  color: #FFFCF2;
 }
 #projectSelector:hover {
     background: rgb(75, 156, 211,0.5);
@@ -170,15 +171,15 @@ header {
     pointer-events: none;
 }
 .carousel-inner {
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 .carousel-caption{
-    position: absolute;
-    height: 250px;
-    background-color: rgb(75, 156, 211,0.8);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    padding: 3%;
-    z-index: 1;
+  position: absolute;
+  height: 250px;
+  background-color: rgb(75, 156, 211,0.8);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  padding: 3%;
+  z-index: 1;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
     background: rgba(255,255,255,0.2);
