@@ -1,16 +1,16 @@
 /* -----GLOBAL----- */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    background-color: rgb(31, 31, 31);
+  background-color: rgb(31, 31, 31);
 }
 
 /* -----HEADER CONTAINER----- */
 
 header {
-    overflow: hidden;
-    position: relative;
+  overflow: hidden;
+  position: relative;
 }
 #headerImage {
   position: relative;
@@ -20,11 +20,11 @@ header {
   animation: slide 60s linear infinite;
 }
 .headerOverlay {
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    font-family: 'Exo', sans-serif;
-    text-align: center;
-    color: #FFFCF2;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  color: #FFFCF2;
 }
 .navbar {
   position: absolute;
@@ -44,13 +44,13 @@ header {
   color: #FFFCF2;
 }
 .mainHeaderWrapper {
-    background-color: rgba(32, 32, 32, 0.2);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    border-radius: 10px;
-    width: 50%;
-    margin: auto;
-    margin-top: 10vh;
-    padding: 50px;
+  background-color: rgba(32, 32, 32, 0.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 30vh;
+  padding: 50px;
 }
 #mainHeader {
     font-weight: bold;
