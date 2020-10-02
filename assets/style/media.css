@@ -10,7 +10,7 @@
     height: 55vh;
   }
   .frontSelector {
-    margin-left: 15%px;  
+    margin-left: 17%;  
   }
   #projectSelector {
     margin: auto;
@@ -84,7 +84,7 @@
   }
   /* ----------------------------------- */
   #mainSection2 {
-    height: 100vh;
+    height: 55vh;
   }
   .selectorRow {
     margin-left: 5%;
@@ -95,9 +95,12 @@
   #frontRow, #backRow {
     width: 55%;
   }
+  #projectCarouselFRONT, #projectCarouselBACK {
+    height: 100%;
+  }
   .carousel-caption {
     font-size: 10px;
-    height: 100%;
+    height: auto;
   }
   #portDes {
     display: none;
