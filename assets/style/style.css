@@ -82,16 +82,16 @@ header {
 /* -----SECTION ONE----- */
 
 #mainSection1 {
-    color: #FFFCF2;
-    font-family: 'Exo', sans-serif;
-    height: 100%;
-    padding-bottom: 200px;
-    padding-top: 10%;
-    text-align: center;
-    background: -webkit-linear-gradient(45deg, rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
-    background: -o-linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -o-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
-    background: -moz-linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
-    background: linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
+  color: #FFFCF2;
+  font-family: 'Exo', sans-serif;
+  height: 100%;
+  padding-bottom: 200px;
+  padding-top: 10%;
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
+  background: -o-linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -o-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
+  background: -moz-linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), -moz-linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
+  background: linear-gradient(45deg,  rgb(39, 39, 39) 49%, rgba(0,0,0,0) 30%), linear-gradient(-45deg,  rgb(39, 39, 39) 49%, #4B9CD3 49%);
 }
 #profile-pic {
     height: 500px;
@@ -152,18 +152,18 @@ header {
     background: rgb(75, 156, 211,0.5);
 }
 #projectSelText {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    background-color: rgb(39, 39, 39);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color: rgb(39, 39, 39);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 #projectCarouselFRONT, #projectCarouselBACK {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    margin-top: 3%;
-    height: 60%;
-    max-width: 80%;
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
+  margin-top: 3%;
+  height: 60%;
+  max-width: 80%;
 }
 #projectCarouselBACK {
     position: absolute;

@@ -55,7 +55,8 @@
     width: 100%;
   }
   #mainSection1 {
-    padding-top: 15%;
+    background: rgb(39, 39, 39);
+    padding-top: 5%;
     padding-bottom: 5%;
   }
   #profile-pic {
@@ -68,33 +69,28 @@
     font-size: 80px;
   }
   #mainBottom {
-    font-size: 15px;
-  }
-  #mainSection1 {
-    background: rgb(39, 39, 39);
+    font-size: 18px;
   }
   #mainSection2 {
-    height: 50vh;
+    height: 100vh;
   }
   #projectCarouselFRONT, #projectCarouselBACK {
-    margin-top: 30px;
   }
-  .carousel-control-prev:hover, .carousel-control-next:hover {
-    height: 83%;
+  .selectorRow {
+    margin-left: 5%;
   }
-  .carousel-caption {
-    position: relative;
-    height: 60%;
+  #projectSelText {
+    font-size: 20px;
   }
-  #captionContent {
-    position: absolute;
-  }
-  #portDes {
-    display: none;
+  #frontRow, #backRow {
+    width: 55%;
   }
   #contact, #checkOut {
     margin: auto;
     width: 100%;
     margin-bottom: 10%;
+  }
+  #mainSection4 {
+    padding-bottom: 15%;
   }
 }
