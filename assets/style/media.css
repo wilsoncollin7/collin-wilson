@@ -47,6 +47,7 @@
 }
 
 @media screen and (max-width: 700px) {
+  /* ----------------------------------- */
   .navbar {
     position: relative;
   }
@@ -59,6 +60,13 @@
   .mainHeaderWrapper {
     margin-top: 10vh;
   }
+  #mainHeader {
+    font-size: 80px;
+  }
+  #mainBottom {
+    font-size: 18px;
+  }
+  /* ----------------------------------- */
   .accordion {
     margin: 0;
     width: 100%;
@@ -74,12 +82,7 @@
     background-color: #4B9CD3;
     padding: 20px;
   }
-  #mainHeader {
-    font-size: 80px;
-  }
-  #mainBottom {
-    font-size: 18px;
-  }
+  /* ----------------------------------- */
   #mainSection2 {
     height: 100vh;
   }
@@ -88,12 +91,16 @@
   .selectorRow {
     margin-left: 5%;
   }
+  .carousel-caption {
+    position: relative;
+  }
   #projectSelText {
     font-size: 20px;
   }
   #frontRow, #backRow {
     width: 55%;
   }
+  /* ----------------------------------- */
   #contact, #checkOut {
     margin: auto;
     width: 100%;
@@ -104,7 +111,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   #mainHeader {
     font-size: 60px;
   }
