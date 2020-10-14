@@ -9,21 +9,6 @@
   #mainSection2 {
     height: 55vh;
   }
-  .frontSelector {
-    margin-left: 17%;  
-  }
-  #projectSelector {
-    margin: auto;
-  }
-  .selectorRow {
-    margin-left: 20%;
-  }
-  #projectSelText {
-    writing-mode: horizontal-tb; 
-  }
-  #frontRow, #backRow {
-    display: inline-flex;
-  }
   #contact, #checkOut {
     margin: auto;
     margin-bottom: 10%;
@@ -88,15 +73,6 @@
   /* ----------------------------------- */
   #mainSection2 {
     height: 60vh;
-  }
-  .selectorRow {
-    margin-left: 5%;
-  }
-  #projectSelText {
-    font-size: 20px;
-  }
-  #frontRow, #backRow {
-    width: 55%;
   }
   #projectCarouselFRONT, #projectCarouselBACK {
     margin: auto;  
