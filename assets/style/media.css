@@ -6,12 +6,18 @@
   .mainHeaderWrapper {
     margin-top: 20vh;
   }
-  #mainSection2 {
-    height: 55vh;
+  .backSelector {
+    margin-top: 20px;
   }
   #contact, #checkOut {
     margin: auto;
     margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #projectSelector {
+    width: 50%;
   }
 }
 
@@ -21,9 +27,6 @@
   }
   .nav-link {
     font-size: 50px;
-  }
-  #projectCarouselFRONT, #projectCarouselBACK {
-    margin: auto;  
   }
   #mainBottom {
     font-size: 25px;
@@ -71,19 +74,7 @@
     padding: 20px;
   }
   /* ----------------------------------- */
-  #mainSection2 {
-    height: 60vh;
-  }
-  #projectCarouselFRONT, #projectCarouselBACK {
-    margin: auto;  
-  }
-  .carousel-caption {
-    font-size: 10px;
-    height: auto;
-  }
-  #portDes {
-    display: none;
-  }
+  
   /* ----------------------------------- */
   #skillCard1, #skillCard2, #skillCard3 {
     width: 60%;
@@ -104,11 +95,19 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   #mainHeader {
     font-size: 60px;
   }
   #profile-pic {
     height: 300px;
+  }
+  .prjectImg {
+    margin-left: -107px;
+    width: 400px;
+    height: 150;
+  }
+  .projectImgOverlay {
+    left: 42%;
   }
 }
