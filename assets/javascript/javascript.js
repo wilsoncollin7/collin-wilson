@@ -18,9 +18,16 @@ const frontSelected = function() {
     isFrontSelected = true;
     isBackSelected = false;
 
-    tl.fromTo($("#projectCarouselBACK"), 0.4, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
-    .fromTo($("#projectCarouselFRONT"), 0.4, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut });
-    $("#projectCarouselFRONT").attr("style", "pointer-events: all;");
+    tl.fromTo($("#backProject5"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#backProject4"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#backProject3"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#backProject2"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#backProject1"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#frontProject1"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#frontProject2"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#frontProject3"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#frontProject4"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    $("#frontProject").attr("style", "pointer-events: all;");
 };
 
 const backSelected = function() {
@@ -30,9 +37,16 @@ const backSelected = function() {
     isFrontSelected = false;
     isBackSelected = true;
 
-    tl.fromTo($("#projectCarouselFRONT"), 0.4, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
-    .fromTo($("#projectCarouselBACK"), 0.4, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut });
-    $("#projectCarouselBACK").attr("style", "pointer-events: all;");
+    tl.fromTo($("#frontProject4"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#frontProject3"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#frontProject2"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#frontProject1"), 0.2, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#backProject1"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#backProject2"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#backProject3"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#backProject4"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#backProject5"), 0.2, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    $(".backCont").attr("style", "pointer-events: all;");
 };
 
 $(".frontSelector").on("click", function() {

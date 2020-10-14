@@ -126,7 +126,7 @@ header {
   height: 100%;
   padding-bottom: 150px;
   background: linear-gradient(120deg, rgba(210, 210, 210) 50%, #4B9CD3 50%);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 #projectsHeader {
   color: #151513;
@@ -162,18 +162,24 @@ header {
   padding-top: 2%;
   text-align: center;
 }
+.frontContainer {
+  position: absolute;
+}
+.backCont {
+  opacity: 0;
+  pointer-events: none;
+}
 .projectImgContainer {
   position: relative;
   display: inline-block;
   width: 500px;
   height: 250;
   margin-left: -5px;
-  transition: transform .2s;
+  transition: transform .2s !important;
 }
 .prjectImg {
   width: 500px;
   height: 250;
-  
 }
 .projectImgOverlay {
   visibility: hidden;
@@ -181,7 +187,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) !important;
   background-color: rgba(32, 32, 32, 0.8);
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
   color: #FFFCF2;
@@ -189,7 +195,7 @@ header {
   transition: 0.3s;
 }
 .projectTile:hover {
-  transform: scale(1.25);
+  transform: scale(1.25) !important;
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
   z-index: 5;
 }
