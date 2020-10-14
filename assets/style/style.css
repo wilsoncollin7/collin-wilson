@@ -125,7 +125,7 @@ header {
   font-family: 'Exo', sans-serif;
   height: 100%;
   padding-bottom: 150px;
-  background: linear-gradient(90deg, rgba(210, 210, 210) 60%, #4B9CD3 60%);
+  background: linear-gradient(120deg, rgba(210, 210, 210) 50%, #4B9CD3 50%);
   /* overflow: hidden; */
 }
 #projectsHeader {
@@ -137,11 +137,12 @@ header {
   margin-bottom: 5%;
   border-bottom: 1px solid #151513;
 }
-#projectSelector {
-  margin-left: 40%;
-  font-size: x-large;
+.selectorRow {
+  margin: auto;
   text-align: center;
-  float: right;
+}
+#projectSelector {
+  font-size: x-large;
   width: 90%;
   background-color: rgb(39, 39, 39);
 }
@@ -158,44 +159,33 @@ header {
 #projectContainer {
   margin-top: 5%;
   height: 100%;
-  width: 500px;
   padding-top: 2%;
-  padding-bottom: 2%;
-  background-color:  rgb(39, 39, 39);
   text-align: center;
 }
-.prjectTile {
-  width: 45%;
-  margin: 4px;
-  border: 2px solid #4B9CD3;
+.projectImgContainer {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 250;
+  margin-left: -5px;
+  transition: transform .2s;
 }
-
-
-
-
-/* #projectCarouselFRONT, #projectCarouselBACK {
+.prjectImg {
+  width: 500px;
+  height: 250;
+  
+}
+.projectImgOverlay {
   position: absolute;
-  right: 0;
-  margin-top: 3%;
-  margin-right: 10%;
-  max-width: 1020px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-#projectCarouselBACK {
-  opacity: 0;
-  pointer-events: none;
-}
-.carousel-inner {
+.prjectTile:hover {
+  transform: scale(1.25);
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  z-index: 5;
 }
-.carousel-caption{
-  height: 250px;
-  background-color: rgb(75, 156, 211,0.8);
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
-  padding: 3%;
-}
-.carousel-control-prev:hover, .carousel-control-next:hover {
-  background: rgba(255,255,255,0.2);
-} */
 .portBtn {
   color: #151513;
   background-color: rgba(210, 210, 210);
