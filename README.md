@@ -5,6 +5,8 @@
   
   Live site here: [Collin Wilson](https://wilsoncollin7.github.io/collin-wilson/)
 
+  <img src="./assets/dev-photos/home.JPG">
+
   ## Table of Contents
 
   - [Installation](#installation)
