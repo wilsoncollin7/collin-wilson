@@ -8,6 +8,9 @@ body {
 
 /* -----HEADER CONTAINER----- */
 
+#mainContainer {
+  opacity: 0;
+}
 header {
   overflow: hidden;
   position: relative;
