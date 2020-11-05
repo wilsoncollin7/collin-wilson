@@ -18,7 +18,9 @@ const frontSelected = function() {
     isFrontSelected = true;
     isBackSelected = false;
 
-    tl.fromTo($("#backProject6"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    tl.fromTo($("#backProject8"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#backProject7"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#backProject6"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
     .fromTo($("#backProject5"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
     .fromTo($("#backProject4"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
     .fromTo($("#backProject3"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
@@ -28,6 +30,7 @@ const frontSelected = function() {
     .fromTo($("#frontProject2"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     .fromTo($("#frontProject3"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     .fromTo($("#frontProject4"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#frontProject5"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     $("#frontProject").attr("style", "pointer-events: all;");
 };
 
@@ -38,7 +41,8 @@ const backSelected = function() {
     isFrontSelected = false;
     isBackSelected = true;
 
-    tl.fromTo($("#frontProject4"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    tl.fromTo($("#frontProject5"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
+    .fromTo($("#frontProject4"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
     .fromTo($("#frontProject3"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
     .fromTo($("#frontProject2"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
     .fromTo($("#frontProject1"), 0.1, { opacity: 1, x: 0 }, { opacity: 0, x: 3000, ease: Power2.easeInOut })
@@ -48,6 +52,8 @@ const backSelected = function() {
     .fromTo($("#backProject4"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     .fromTo($("#backProject5"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     .fromTo($("#backProject6"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#backProject7"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
+    .fromTo($("#backProject8"), 0.1, { opacity: 0, x: 3000 }, {opacity: 1, x: 0, ease: Power2.easeInOut })
     $(".backCont").attr("style", "pointer-events: all;");
 };
 
