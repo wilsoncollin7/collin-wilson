@@ -1,5 +1,5 @@
 # Portfolio 
-  ![GitHub license](https://img.shields.io/badge/Made%20by-%40Wilsoncollin7-orange) [![GitHub followers](https://img.shields.io/github/followers/wilsoncollin7.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/wilsoncollin7?tab=followers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![GitHub license](https://img.shields.io/badge/Made%20by-%40Wilsoncollin7-orange) [![GitHub followers](https://img.shields.io/github/followers/wilsoncollin7.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/wilsoncollin7?tab=followers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Man Hours](https://img.shields.io/endpoint?url=https%3A%2F%2Fmh.jessemillar.com%2Fhours%3Frepo%3Dhttps%3A%2F%2Fgithub.com%2Fwilsoncollin7%2Fcollin-wilson.git)](https://jessemillar.com/r/man-hours)
 
   This is my personal portfolio, it is updated from my original. This site features nice styling and animations to display my work. There are four section with information about me. This site is ever changing and will be updated consistently.
   
@@ -12,8 +12,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation
