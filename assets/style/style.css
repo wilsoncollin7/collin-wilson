@@ -4,6 +4,8 @@ html {
 }
 body {
   background-color: rgb(31, 31, 31);
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 /* -----HEADER CONTAINER----- */
@@ -25,7 +27,6 @@ header {
 .headerOverlay {
   position: absolute;
   top: 0; left: 0; right: 0;
-  font-family: 'Exo', sans-serif;
   text-align: center;
   color: #FFFCF2;
 }
@@ -86,7 +87,6 @@ header {
 
 #mainSection1 {
   color: #FFFCF2;
-  font-family: 'Exo', sans-serif;
   height: 100%;
   padding-bottom: 200px;
   padding-top: 10%;
@@ -125,7 +125,6 @@ header {
 /* -----SECTION TWO----- */
 
 #mainSection2 {
-  font-family: 'Exo', sans-serif;
   height: 100%;
   padding-bottom: 150px;
   background: linear-gradient(120deg, rgba(210, 210, 210) 50%, #4B9CD3 50%);
@@ -227,7 +226,6 @@ header {
 
 #mainSection3 {
     background-color: rgb(39, 39, 39);
-    font-family: 'Exo', sans-serif;
     height: 100%;
     width: 100%;
     padding-bottom: 15%;
@@ -281,7 +279,6 @@ header {
 /* -----SECTION FOUR----- */
 
 #mainSection4 {
-  font-family: 'Exo', sans-serif;
   height: 100%;
   text-align: center;
   position: relative;
@@ -344,7 +341,6 @@ header {
     color: #FFFCF2;
 }
 .footer {
-    font-family: 'Exo', sans-serif;
     color: #FFFCF2;
     text-align: center;
     position: relative;
